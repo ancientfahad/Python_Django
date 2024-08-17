@@ -1,0 +1,85 @@
+Date: 17 Aug, 2024
+Instructor: Rabbil Sir
+
+1. Course guidelines
+2. Web Development Foundation | BackEnd | FrontEnd
+    - Python Basics
+    - SQL
+    - HTML/CSS/BootStrap/JavaScript
+    - Django ***
+3. What is Web?
+    - Server PC (Hosting/Cloud)
+    - Connectivity (Internet/Intranet/Extranet)
+        - Internet: publicly accessible applciation | creates connections between computers
+        - Extranet: accessible within a region | creates connections beyond an organization
+        - Intranet: accessible within an organization
+    - Client PC
+4. Internet | Extranet | Extranet
+5. Web Application Primary Principle
+    - তথ্য থাকে সার্ভারে সবাই পায় ব্রাউজারে 
+6. Server Computers
+    - AWS | Google Cloud | Microsoft Azure | Digital Ocean
+7. How internet works?
+8. Browser | Client PC
+    - Install Postman App (ব্রাউজারের বাপ) ***
+9. Server/BackEnd PC Execution
+    - Server Computer -> BackEnd (Python|SQL|Django|HTML|CSS)
+    
+    -> Internet ->
+
+10. Client/FrontEnd PC Execution
+    - Browser in device -> FrontEnd (JavaScript|React|HTML|CSS)
+11. Request-Response Model
+    - Communication between FrontEnd and BackEnd
+    - Client | HTTP Request ->  <- HTTP Response | Server
+12. Database Server
+    - Postgre SQL
+    - MS SQL Server
+    - MySQL
+    - SQLite
+    - mongoDB
+    - phpMyAdmin
+13. Static Web Development
+    - HTML | CSS | BootStrap
+14. Dynamic Web Development ***
+    - HTML | CSS | BootStrap | BackEnd
+    - Database --> BackEnd --> FrontEnd
+    - Dynamic Website vs Dynamic Web Application
+15. UI/UX
+    - Figma|Adobe XD|Adobe Illustrator
+16. Web Template/Theme Development
+    - HTML | CSS | JS | Figma->HTML | PSD->HTML
+17. FrontEnd Development
+    - JS | JQuery | React JS | Vue
+18. BackEnd Development
+    - Python | Django | SQL
+19. THE OPTIMIZED SOLUTION
+    - Database ->
+    - BackEnd ->
+    - FrontEnd ->
+20. 
+
+* Full Stack Web Developer vs Full Stack Web Engineer
+* Server Side Rendering vs Client Side Rendering
+* React Native (Mobile Application Development)
+* SDLC
+* Stackoverflow
+* Ostad Pro Batch (70% plus mark must)
+* Reusable BackEnd - FrontEnd
+* 
+
+Resources:
+    - host.hostnavy.net
+    - teamrabbil.com
+    - captainbinary.com
+    - learnwithrabbil.com
+    - theodinproject
+    - codemama
+
+Questions:
+    - Does this course give students hands on experience on web hosting and project deployment?
+    - Does Ostad have any free web hosting for students? 
+    - Does this course provide basic instruction on how to use GIT?
+    - Does Ostad help their graduates to start up their career (internship/beginner level job) related to the course they have taken?
+
+    
