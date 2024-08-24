@@ -1,0 +1,33 @@
+Date: 19 Aug, 2024
+Instructor: Rabbil Sir
+
+What is python? 
+    - Python is a interpreted programming language
+    - Python is a mid level programming language
+
+Why python?
+    - Programming
+    - Web
+    - ML/AI/Thesis
+
+Real World Use Case:
+    - ChatGPT
+    - YouTube
+
+Server PC / BackEnd = Host Computer / Cloud Computer
+Client PC / FrontEnd = Browser / Postman
+Program = Always works with data
+
+Explore:
+    - Compiled programming language vs Interpreted programming language
+    - Python Version 3.12.5 (python3 --version)
+    - PyCharm Pro vs Community
+    - 
+
+Resources:
+    - captainbinary
+    - PyCharm
+    - 
+
+Questions:
+    - 

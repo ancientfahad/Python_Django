@@ -1,0 +1,18 @@
+Date: 23 Aug, 2024
+Instructor: Subeen Sir
+
+print() Built-in Function
+input() Always stores string
+
+Explore:
+    - IDE: Integrated Development Environment
+    - Compiler
+    - Interpreter
+    - UNICODE
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 

@@ -59,14 +59,14 @@ Instructor: Rabbil Sir
     - FrontEnd ->
 20. 
 
-* Full Stack Web Developer vs Full Stack Web Engineer
-* Server Side Rendering vs Client Side Rendering
-* React Native (Mobile Application Development)
-* SDLC
-* Stackoverflow
-* Ostad Pro Batch (70% plus mark must)
-* Reusable BackEnd - FrontEnd
-* 
+Explore:
+    - Full Stack Web Developer vs Full Stack Web Engineer
+    - Server Side Rendering vs Client Side Rendering
+    - React Native (Mobile Application Development)
+    - SDLC
+    - Stackoverflow
+    - Ostad Pro Batch (70% plus mark must)
+    - Reusable BackEnd - FrontEnd
 
 Resources:
     - host.hostnavy.net
