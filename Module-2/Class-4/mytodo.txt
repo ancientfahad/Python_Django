@@ -1,0 +1,93 @@
+Date: 26 Aug, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - String
+        - Single Quotation String vs Double Quotation String vs Triple Quotation String
+        - Single Quotes
+        - Double Quotes
+        - Triple Single Quotes
+        - Triple Double Quotes
+    - String Indexing
+        - Positive Indexing (0)
+        - Negative Indexing (-1)
+    - Slicing
+        - Start
+        - End
+        - Step
+    - Concatenation
+        - (+) Operation 
+        - String Formatted using "f"
+        - Using format() method
+    - Repeatation
+    - Method
+        - upper()
+        - lower()
+        - capitalize()
+        - title()
+        - swapcase()
+        - String Replace
+            - replace()
+    - String to List
+        - split()
+    - Trim Whitespace
+        - strip()
+        - lstrip()
+        - rstrip()
+    - Duplicate Letter Counting / Count Occurrence
+        - 
+    - Method Chaining
+        - 
+    - Validation
+        - isdigit
+        - isspace
+        - isalpha
+        - isnumeric
+        - isalnum
+
+Use Case:
+    - Data Cleaning
+    - Data Validation
+    - Input Correction
+    - Dynamic Content Generation
+    - Analysis Data
+    - Random to Formating
+    - Data Scraping
+    - Data Automation
+
+    - Numbers (+ - * / // % **)
+        - Operator Precedence
+            - Exponentiation (**)
+            - Unary Plus, Unary Minus (+x, -y)
+            - General Operator (* / // %)
+            - Addition, Subtraction (+, -)
+            - ==, !=, >, <, >=, <=, is, is not, in, not in
+            - not
+            - and
+            - or
+
+Use Case:
+    - Mathmatical Expressions
+    - Data Analysis
+    - Financial
+    - Logic
+    - Logarithmic
+    - Trigonometric
+    - Factorial
+    - GCD, LCM
+    - Constant Pi, 
+    - Scientific
+    - Engineering
+
+Explore:
+    - Mutable - Immutable
+    - Explecite Conversion - Implecite Conversion
+    - List
+    - Dictionary
+    - Frozen
+
+Resources:
+    - 
+
+Questions:
+    - 

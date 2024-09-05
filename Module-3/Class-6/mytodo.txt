@@ -1,0 +1,68 @@
+Date: 2 Sep, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - Data Structures
+        - Lists (ordered | mutable | allows duplicate data | heterogeneous data type | dynamic size)
+            - append() - add's data to the last index
+            - insert() - add's data into a specific index
+            - extend()
+            - remove()
+            - pop()
+            - clear()
+            - index()
+            - count()
+            - sort()
+            - reverse()
+            - len()
+            - loop()
+
+        - Tuples (ordered | immutable | allows duplicate data | heterogeneous data type | fixed size)
+            - count()
+            - index()
+
+        - Sets (unordered | mutable | no duplicate data | heterogeneous data type | dynamic size)
+            - add()
+            - update()
+            - remove()
+            - clear()
+            - union()
+            - intersection()
+            - difference()
+            - issubset()
+            - issuperset()
+
+        - Dictionary / Map / Object
+            - keys()
+            - values()
+            - finding a specific value
+
+        - JSON
+            - JavaScript Object Notation
+            - Common Interchange Format
+            - Back End to Front End (B2C)
+            - Back End to Back End (B2B)
+            - Rest API Development
+            - Rest API Implement
+            - Payment Gateway
+            
+            - Object ----> JSON String
+            - JSON String ----> Object
+            - 
+
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - Laravel Point
+    - Json Lint
+    - 
+
+Questions:
+    - Index of duplicated data in Lists/Tuples
+    - Difference between add and update in Sets
+    - 
