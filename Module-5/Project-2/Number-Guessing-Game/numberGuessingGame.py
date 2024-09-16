@@ -84,7 +84,7 @@ def number_guessing_game():
 
             # If the guess is correct, the user wins and the game ends
             else:
-                print(f"\n{GREEN}*** Congratulations! You've guessed the number in {attempts} attempts!***{RESET}")
+                print(f"\n{GREEN}*** Congratulations! You've guessed the number in {attempts} attempts!***{RESET}\n")
                 break  # Exit the loop as the correct guess is made
 
         # Exception handling for invalid inputs that aren't integers
