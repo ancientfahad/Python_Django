@@ -59,55 +59,37 @@ def number_guessing_game():
     print()
     print(f"{GREEN}*** Welcome to the Number Guessing Game ***{RESET}")
 
+    print()
+    print(f"{GREEN}Try to guess the number between 1 and 100.{RESET}")
+
+    # Generate a random number between 1 and 100
+    secret_number = random.randint(1, 100)  # Random number for the game
+    attempts = 0  # Counter to track the number of attempts made by the user
+
     while True:
-        print()
-        print(f"{GREEN}Try to guess the number between 1 and 100.{RESET}")
-
-        # Generate a random number between 1 and 100
-        secret_number = random.randint(1, 100)  # Random number for the game
-        attempts = 0  # Counter to track the number of attempts made by the user
-
         # Game loop continues until the user guesses the correct number
-        while True:
-            try:
-                # User input for the guess, converted to integer
-                print()
-                guess = int(input(f"{YELLOW}Enter your guess: {RESET}"))
-                attempts += 1  # Incrementing attempt count for each guess
+        try:
+            # User input for the guess, converted to integer
+            print()
+            guess = int(input(f"{YELLOW}Enter your guess: {RESET}"))
+            attempts += 1  # Incrementing attempt count for each guess
 
-                # Checking if the guess is lower than the secret number
-                if guess < secret_number:
-                    print(f"{RED}Too low! Try again.{RESET}")
+            # Checking if the guess is lower than the secret number
+            if guess < secret_number:
+                print(f"{RED}Too low! Try again.{RESET}")
 
-                # Checking if the guess is higher than the secret number
-                elif guess > secret_number:
-                    print(f"{RED}Too high! Try again.{RESET}")
+            # Checking if the guess is higher than the secret number
+            elif guess > secret_number:
+                print(f"{RED}Too high! Try again.{RESET}")
 
-                # If the guess is correct, the user wins and the game ends
-                else:
-                    print(f"\n{GREEN}*** Congratulations! You've guessed the number in {attempts} attempts!***{RESET}\n")
-                    break  # Exit the loop as the correct guess is made
-
-            # Exception handling for invalid inputs that aren't integers
-            except ValueError:
-                print(f"{RED}Invalid input! Please enter a valid number.{RESET}\n")
-
-        # Asking if the user wants to perform another calculation
-        while True:
-            next_calculation = input(f"{YELLOW}Do you want to play another round? (y/n): {RESET}").upper()
-
-            # If the user enters 'Y', continue the loop for another calculation
-            if next_calculation == 'Y':
-                break
-            # If the user enters 'N', exit the program
-            elif next_calculation == 'N':
-                print(f"\n{GREEN}*** Thank you for playing the Number Guessing Game! ***{RESET}\n")
-                sys.exit()  # Terminating the program
+            # If the guess is correct, the user wins and the game ends
             else:
-                # Handling invalid input continuation choice
-                print(f"{RED}Invalid choice! Please enter 'y' for Yes or 'n' for No.{RESET}\n")
-                continue  # Restart the loop to prompt for valid input
+                print(f"\n{GREEN}*** Congratulations! You've guessed the number in {attempts} attempts!***{RESET}")
+                break  # Exit the loop as the correct guess is made
 
+        # Exception handling for invalid inputs that aren't integers
+        except ValueError:
+            print(f"{RED}Invalid input! Please enter a valid number.{RESET}")
 
 # Running the number guessing game
 number_guessing_game()
