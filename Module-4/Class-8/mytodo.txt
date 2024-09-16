@@ -1,0 +1,49 @@
+Date: 9 Sep, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - File
+        - Create
+        - Write
+        - Read
+        - Rename
+        - Delete
+    - Folder
+        - Create
+        - Write
+        - Read
+        - Rename
+        - Delete
+    - CSV
+        - Create
+        - Write
+        - Read
+    - JSON ***
+        - What is JSON (JavaScript Object Notation)???
+            - Common data lightweight interchange format
+            - System to  System 
+            - 
+        - How to create: Dictionary Data ---> JSON String
+            - List --> JSON (NO)
+            - Dictionary --> JSON (YES)
+        - How to create: Dictionary Data ---> JSON String ---> JSON File
+        - How to read: JSON File ---> JSON String ---> Dictionary Data
+    - ZIP
+        - Create
+        - Unzip
+    - Error Handling
+        - try
+        - except
+        - finally
+
+Use Case:
+    -
+
+Explore:
+    -
+
+Resources:
+    -
+
+Questions:
+    -

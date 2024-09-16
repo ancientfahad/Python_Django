@@ -1,0 +1,10 @@
+{
+    "name": "Ostad",
+    "age": true,
+    "city": "Dhaka",
+    "titles": [
+        "Python",
+        "Django",
+        "React"
+    ]
+}
