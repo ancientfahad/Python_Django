@@ -1,5 +1,5 @@
 """
-Author: Fahad Chowdhury
+Author: Al Fahad Chowdhury
 Date: 15 Sep, 2024
 
 Course: Full Stack Web Development with Python, Django & React
@@ -40,7 +40,7 @@ BLUE = "\033[94m"
 
 # Displaying author and project information
 print(f"\n{GREEN}{'*' * 70}")
-print(f"{GREEN}{'Author'}  {':'}   {'Fahad Chowdhury'}")
+print(f"{GREEN}{'Author'}  {':'}   {'Al Fahad Chowdhury'}")
 print(f"{GREEN}{'Date'}    {':'}   {'15 Sep, 2024'}")
 print(f"{GREEN}{'Course'}  {':'}   {'Full Stack Web Development with Python, Django & React'}")
 print(f"{GREEN}{'Batch'}   {':'}   {'2'}")
