@@ -1,0 +1,3 @@
+SCB1000001,Fahad Chowdhury,0.0
+SCB1000002,Anannya Ahmed,10000000.0
+XYZ,XYZ,0

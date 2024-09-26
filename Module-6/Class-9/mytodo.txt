@@ -1,0 +1,19 @@
+Date: 20 Sep, 2024
+Instructor: Subeen Sir
+
+Topics:
+    - OOP
+
+Use Case:
+    -
+
+Explore:
+    - dir() ***
+    - class vs object
+    - 
+
+Resources:
+    -
+
+Questions:
+    -

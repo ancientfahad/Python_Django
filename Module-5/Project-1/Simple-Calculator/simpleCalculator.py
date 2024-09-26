@@ -11,22 +11,28 @@ Project Name: Simple Calculator
 Project Description:
 This project is a simple command-line calculator that allows users to perform basic arithmetic
 operations such as addition, subtraction, multiplication, division, and modulus. It also handles
-error cases like division by zero and invalid inputs. The calculator continues to ask for inputs
-until the user chooses to exit the program.
+error cases like division by zero, invalid numeric inputs, and invalid operation selections. The 
+program continues to ask for inputs until the user chooses to exit.
+
+ANSI Color Codes:
+- RESET, YELLOW, GREEN, RED, BLUE: ANSI escape codes used to style terminal text, improving user
+  experience by providing colored feedback in the command-line interface (CLI).
 
 Variables:
-- RESET, YELLOW, GREEN, RED, BLUE: ANSI escape codes for terminal text colors.
 - choice: Stores the user's selected operation (1-6).
-- num1, num2: The two numbers inputted by the user for performing calculations.
-- next_calculation: Used to determine whether the user wants to continue or exit the program.
+- num1, num2: The two numbers input by the user for calculations.
+- next_calculation: Used to determine whether the user wants to perform another calculation or exit.
 
 Functions:
 - add(x, y): Returns the sum of x and y.
-- subtract(x, y): Returns the difference of x and y.
+- subtract(x, y): Returns the difference between x and y.
 - multiply(x, y): Returns the product of x and y.
-- divide(x, y): Returns the quotient of x divided by y, with error handling for division by zero.
+- divide(x, y): Returns the quotient of x divided by y, or an error message if division by zero occurs.
 - modulus(x, y): Returns the remainder when x is divided by y.
-- calculator(): Main function that handles the entire user interaction and performs calculations.
+- get_valid_number(prompt): Continuously prompts the user for a valid number and returns a float 
+  once valid input is provided.
+- calculator(): Main function that handles user interactions, performs the chosen arithmetic operations,
+  and continues until the user opts to exit.
 """
 
 import sys  # Importing sys module (internal library) to handle program exit
@@ -50,7 +56,6 @@ print(f"{GREEN}{'Name'}    {':'}   {'Simple Calculator'}")
 print(f"{GREEN}{'*' * 70}")
 
 # Arithmetic functions
-
 def add(x, y):
     """
     Adds two numbers and returns the result.
@@ -110,7 +115,7 @@ def get_valid_number(prompt):
     while True:
         try:
             return float(input(prompt))
-        except ValueError:
+        except Exception:
             print(f"{RED}Invalid input! Please enter numeric values.{RESET}\n")
 
 # Main function to handle user input and operations
@@ -135,12 +140,12 @@ def calculator():
         # Taking user's choice of operation
         print()
         choice = input(f"{YELLOW}Enter choice [1/2/3/4/5/6]: {RESET}")
-        print()
 
         # Validating user choice
         if choice in ['1', '2', '3', '4', '5']:
 
             # Using the get_valid_number function to get valid input for both numbers
+            print()
             num1 = get_valid_number(f"{YELLOW}Enter first number: {RESET}")
             num2 = get_valid_number(f"{YELLOW}Enter second number: {RESET}")
 
@@ -159,7 +164,7 @@ def calculator():
 
         # Exit option
         elif choice == '6':
-            print(f"{GREEN}*** Thank you for using the Simple Calculator! ***{RESET}\n")
+            print(f"\n{GREEN}*** Thank you for using the Simple Calculator! ***{RESET}\n")
             sys.exit()  # Terminating the program
 
         else:

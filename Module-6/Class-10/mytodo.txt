@@ -1,0 +1,62 @@
+Date: 23 Sep, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - Key Concepts
+    - OOP Use Case
+    - Class Object
+    - Class Variables Methods
+    - Constructors
+    - Instance Variables
+    - Instance Methods
+    - Inheritance
+    - Single Inheritance
+    - Multiple Inheritance
+    - Multilevel Inheritance
+    - Constructors at inheritance situations
+
+    - Inheritance
+    - Overriding
+    - Overloading
+    - Polymorphism
+    - Encapsulation
+
+    - What is OOP?
+    - Key Concepts?
+    - OOP Use Case
+    - Class
+    - Object
+    - Class Variable
+    - Class Method
+    - Constructor __init__ (auto executed, name fixed, can't return)
+    - Constructor with Params & Constructor without Params
+    - Constractor can change class variables value
+    - Constructor can produce class variables
+
+    - Inheritance
+    - Single Inheritance
+    - Multiple Inheritance
+    - Multilevel Inheritance
+    - Overriding
+    - Abstraction
+    - Overloading
+    - Polymorphism
+    - Static Methods
+    - Access Modifier
+        - Public
+        - Protected
+        - Private
+    - Encapsulation
+    - 
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    -  

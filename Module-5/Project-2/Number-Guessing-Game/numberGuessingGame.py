@@ -15,18 +15,22 @@ whether the guess is too high or too low and continues to prompt the user until 
 correct number is guessed. The program tracks and displays the number of attempts taken
 to guess the correct number. Input validation ensures that only numeric guesses are accepted.
 
+ANSI Color Codes:
+- RESET, YELLOW, GREEN, RED, BLUE: ANSI escape codes used to style terminal text and improve user
+  experience by giving colored feedback in the command-line interface (CLI).
+
 Variables:
 - secret_number: Stores the randomly generated number that the user needs to guess.
 - attempts: Keeps track of the number of guesses the user has made.
 
 Functions:
 - number_guessing_game(): Main function that runs the game. It generates a random number,
-prompts the user for guesses, provides feedback, counts the number of attempts, and
-handles invalid inputs. The function continues to prompt the user until the correct number is guessed.
+prompts the user for guesses, provides feedback on each guess (too high or too low), counts 
+the number of attempts, and handles invalid inputs. The function continues to prompt the user 
+until the correct number is guessed and then displays the total number of attempts made.
 """
 
 import random  # Importing the random module (internal) to generate a random number
-import sys # Importing sys module (internal) to handle program exit
 
 # ANSI escape codes to style terminal output
 RESET = "\033[0m"
@@ -88,7 +92,7 @@ def number_guessing_game():
                 break  # Exit the loop as the correct guess is made
 
         # Exception handling for invalid inputs that aren't integers
-        except ValueError:
+        except Exception:
             print(f"{RED}Invalid input! Please enter a valid number.{RESET}")
 
 # Running the number guessing game
