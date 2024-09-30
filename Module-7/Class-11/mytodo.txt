@@ -1,0 +1,17 @@
+Date: 27 Sep, 2024
+Instructor: Subeen Sir
+
+Topics:
+    - 
+
+Use Case:
+    -
+
+Explore:
+    - regexr.com
+
+Resources:
+    -
+
+Questions:
+    -
