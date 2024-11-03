@@ -1,0 +1,25 @@
+class Father:
+
+    x = 10
+    y = 20
+
+    def add(self):
+        sum = self.x + self.y
+        print(sum)
+
+
+
+class Son(Father):
+    pass
+
+
+OBJ = Son()
+print(OBJ.x)
+print(OBJ.y)
+OBJ.add()
+
+
+OBJ1 = Father()
+print(OBJ1.x)
+print(OBJ1.y)
+OBJ1.add()

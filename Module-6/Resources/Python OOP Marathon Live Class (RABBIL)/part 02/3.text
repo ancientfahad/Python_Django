@@ -1,0 +1,21 @@
+class GrandFather:
+    x = 10
+
+
+
+class Father(GrandFather):
+    pass
+
+
+
+class Son(Father):
+    pass
+
+
+GrandFatherOBJ= GrandFather()
+FatherOBJ = Father()
+SonObj = Son()
+
+print(GrandFatherOBJ.x)
+print(FatherOBJ.x)
+print(SonObj.x)

@@ -1,0 +1,54 @@
+Date: 5 Oct, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - What is a database?
+    - Key concepts
+        - Data
+        - DBMS (MySQL, PostgreSQL, MongoDB, MSSQL)
+        - Tables
+        - Queries (SQL)
+    - Types of Databases
+        - Relational Databases (MySQL, PostgreSQL, MongoDB, MSSQL)
+        - NoSQL Databases (MongoDB, Redis)
+        - Cloud Databases (AWS RDS, Google Cloud SQL)
+        - Distributed Databases (Google Bigtable)
+    - How databases work?
+        - CRUD
+            - Create
+            - Read
+            - Update
+            - Delete
+    - Why are databases important? 
+        - Efficiency
+        - Accuracy
+        - Security
+        - Scalability
+    - Database Managemnet Systems (DBMS)
+        - Database Software (MongoDB, MSSQL, MySQL)
+        - Tools for data organization, storage, retrieval and administration
+    - ACID Properties
+        - Atomicity
+        - Consistency
+        - Isolation
+        - Durability
+    - Tools
+        - Xampp (Live)
+        - DataGrip (JetBrains)
+        - DBForgeStudio
+        - Oracle SQL Developer
+        - VS Code Extension (Live)
+
+
+
+Use Case:
+    -
+
+Explore:
+    - regexr.com
+
+Resources:
+    -
+
+Questions:
+    -

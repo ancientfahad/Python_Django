@@ -1,0 +1,65 @@
+from abc import ABC , abstractmethod
+
+class Father(ABC):
+
+    num1 = 200
+    num2 = 300
+
+
+    @abstractmethod
+    def add(self):
+        pass
+
+    @abstractmethod
+    def sub(self):
+        pass
+
+
+    def mul(self):
+        res = self.num1 * self.num2
+        print(f"Mul is {res}")
+
+
+    def div(self):
+        res = self.num1 / self.num2
+        print(f"Div is {res}")
+
+
+
+
+class Son(Father):
+
+    def add(self):
+        res = self.num1+self.num2
+        print(f"Sum is {res}")
+
+    def sub(self):
+        res = self.num1-self.num2
+        print(f"Sub is {res}")
+
+
+
+obj = Son()
+
+# Re-Form
+obj.add()
+obj.sub()
+
+# Baki methods
+obj.mul()
+obj.div()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

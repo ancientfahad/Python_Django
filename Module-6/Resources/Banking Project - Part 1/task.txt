@@ -1,0 +1,4 @@
+Working with deposit, get_balance & withdraw function
+Take input(Deposit balance) from user for deposit balance
+Print get_balance()/ Ttotal balance after deposit
+After working with withdraw function, you need to print again the total balance after withdraw 

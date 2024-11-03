@@ -1,0 +1,23 @@
+Date: 7 Oct, 2024
+Instructor: Rabbil Sir
+
+Topics:
+    - Environment
+    - How to CREATE and DROP database?
+    - How to CREATE and DROP table?
+    - Create a POS database with Relationship
+        - What is ERD Diagram
+        - Table Squence -> "users" -> "categories" -> "products" -> "customers" -> "invoice" -> "invoice_products"
+        - 
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 

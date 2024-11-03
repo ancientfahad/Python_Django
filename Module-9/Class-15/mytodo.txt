@@ -1,0 +1,25 @@
+Date: 19 Oct, 2024
+Instructor: Naimur Sir
+
+Topics:
+    - SELECT ALL 
+    - SELECT specific column
+    - WHERE specific data
+    - ORDER BY
+    - INSERT
+    - UPDATE
+    - DELETE
+    - GROUP BY
+    - 
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 

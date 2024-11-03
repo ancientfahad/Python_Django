@@ -1,0 +1,28 @@
+class Profile:
+
+    name = "Rabbil Hasan"
+    age = 35
+
+
+    def about(self,city):
+        print(f"My name is {self.name} and age is {self.age} and city is {city}")
+
+
+    def __init__(self,num1,num2,ageValue,dateOfBirthValue):
+        sum = num1 + num2
+        print(f"The sum is {sum}")
+        self.age=ageValue
+
+        self.dateOfBirth=dateOfBirthValue
+
+
+
+
+obj = Profile(10,40, 100, "09-12-1991")
+
+obj.about("Dhaka")
+
+print(obj.dateOfBirth)
+
+
+

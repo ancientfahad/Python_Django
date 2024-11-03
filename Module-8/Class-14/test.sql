@@ -1,0 +1,11 @@
+-- Active: 1728315354834@@127.0.0.1@3306
+
+CREATE DATABASE DB101;
+
+DROP DATABASE DB101
+
+CREATE TABLE Students(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    student_name VARCHAR(255) COMMENT 'Student Name',
+    student_id int
+) COMMENT '';

@@ -1,7 +1,27 @@
-Date: 29 Sep, 2024
+Date: 30 Sep, 2024
 Instructor: Rabbil Sir
 
 Topics:
+    - Terminology
+    - What is Client - Server
+    - What is JSON
+    - Python Client Feature
+        - http.client (built in)
+        - requests (third party package)
+    - Let's install python client
+        - pip install requests
+        - pip3 install requests
+    - How to make Get Request and Fetch Data
+        - Response status code
+        - Resposne JSON Body
+        - Response Header
+    - How to Post a Data to a Server
+        - Request Payload
+        - Request Header
+    - How to work with datetime
+        - How to work with date, time, hour, year
+        - Date formatting
+        - Date difference
     - 
 
 Use Case:

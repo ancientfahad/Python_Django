@@ -1,0 +1,19 @@
+class Father:
+
+    def vote(self):
+        print("ভোট পাইছি 70000000")
+
+
+
+
+class Daughter(Father):
+
+    # Overriding
+    def vote(self):
+        print("ভোট চুরি করেছি")
+
+
+
+
+OBJ = Daughter()
+OBJ.vote()

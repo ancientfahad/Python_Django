@@ -1,0 +1,18 @@
+Book store Management Project
+
+Add Book
+	Title
+	Author's (Multiple)
+	Quantity
+	Year
+	ISBN
+	Price
+
+Delete Book
+
+View all books
+
+Task:
+
+// Lent book
+// Update book

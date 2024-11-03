@@ -1,0 +1,49 @@
+class Father:
+
+    x = 10
+    y = 20
+
+    def add(self):
+        sum = self.x + self.y
+        print(sum)
+
+
+class Mother:
+    a = 1
+    b = 2
+    def sub(self):
+        res = self.a - self.b
+        print(res)
+
+
+
+
+class Son(Father,Mother):
+    pass
+
+
+OBJ = Son()
+# From father
+print(OBJ.x)
+print(OBJ.y)
+OBJ.add()
+
+# From Mother
+print(OBJ.a)
+print(OBJ.b)
+OBJ.sub()
+
+
+
+
+
+OBJ1 = Father()
+print(OBJ1.x)
+print(OBJ1.y)
+OBJ1.add()
+
+
+OBJ2 = Mother()
+print(OBJ2.a)
+print(OBJ2.b)
+OBJ2.sub()

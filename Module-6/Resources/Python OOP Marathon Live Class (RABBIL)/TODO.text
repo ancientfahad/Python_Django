@@ -1,0 +1,52 @@
+
+PART 01
+1.  What is OOP ----------------------------> Done
+2.  Key Concepts ---------------------------> Done
+3.  OOP Use Case ---------------------------> Done
+4.  Class ---------------------------> Done
+5.  Object---------------------------> Done
+6.  Class Variable ---------------------------> Done
+7.  Class Method ---------------------------> Done
+8.  Constructor __init__ ( auto executed, name fixed, can't return)----------> Done
+9.  Constructor With Params & Constructor Without Params----------> Done
+10. Constructor can change class variables value
+11. Constructor can produce class variables (Instance Variable)
+
+PART 02
+1. Inheritance ---> Done
+2. Single Inheritance ---> Done
+3. Multiple Inheritance ---> Done
+4. Multilevel Inheritance ---> Done
+5. Overriding ---> Done
+6. Abstraction ---> Done
+7. Overloading একই মেথড বার বার ভিন্ন রূপে ব্যাবহার করা ---> Done
+8. Polymorphism ---> Done
+
+
+PART 03
+- Static Methods ---> Done
+
+
+
+PART 04
+Access Modifier
+- Public (আমার বাসা  + আত্মীয় বাসা + পথে ঘাটে  ) ---> Done
+- Protected (আমার বাসা  + আত্মীয় বাসা) ---> Done
+- Private (আমার বাসা) ---> Done
+
+
+
+
+PART 05 Encapsulation
+- Bank Account ---> Done
+- balance ---> Done
+- deposit ---> Done
+- withdraw ---> Done
+- check ---> Done
+
+
+
+
+
+
+

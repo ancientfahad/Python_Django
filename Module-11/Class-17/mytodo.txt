@@ -1,0 +1,33 @@
+Date: 2 Nov, 2024
+Instructor: Sobuj Sir
+
+Topics:
+    - VS Code extension for HTML
+    - VS Code emmet
+    - Web Page Structure
+    - Basic Meta Tags
+    - SEO Meta Tags
+    - HTTP - eqiv Meta Tags
+    - Opengraph Meta Tags
+    - Twitter Card Meta Tags
+    - Mobile device Meta Tags
+    - Structural Tags
+    - Text Formatting Tags
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - Live Server
+    - HTML End Tag Labels
+    - Auto Close Tag
+    - Highlight Matching Tag
+    - Auto Rename Tag
+    - Code Spell checker
+    - 
+
+Questions:
+    - 
