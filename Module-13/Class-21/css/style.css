@@ -1,0 +1,34 @@
+.bg-body-tertiary{
+    background-color: rgb(99, 99, 99) !important;
+}
+
+.logo{
+    height: 60px;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    color:white;
+    text-align: center;
+}
+
+.hero img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    color:black;
+    text-align: center;
+}

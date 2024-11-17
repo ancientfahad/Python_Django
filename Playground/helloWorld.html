@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AISD Field Trip Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    textarea {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: none;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #039e63;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- <img class="logo" src="https://resources.finalsite.net/images/f_auto,q_auto/v1692766975/aisdhakaorg/dqqx83dybpbgkike0vnb/Logo_version-4.png" alt="AISD Logo"> -->
+    <img src="https://drive.google.com/thumbnail?id=1Iol8nh_tk1Kq1NNd1mT5fWQ8t8sbqrgI">
+    <h1>AISD Field Trip Form</h1>
+
+    <form>
+      <label for="notes">Approval Notes:</label>
+      <textarea id="notes" name="notes" rows="4" placeholder="Enter your notes here"></textarea><br>
+      <input type="button" value="Submit" class="button" onclick="submitNotes()">
+    </form>
+
+    <div id="message" class="message"></div>
+  </div>
+
+  <script>
+    function submitNotes() {
+      var notesField = document.getElementById("notes");
+      var submitButton = document.querySelector(".button");
+      var messageDiv = document.getElementById("message");
+
+      var notes = notesField.value;
+      var stage = "<?= stage ?>";  // Use templating to insert the stage value
+      var row = "<?= row ?>";      // Use templating to insert the row value
+
+      if (!notes) {
+        alert("Please enter your notes.");
+        return;
+      }
+
+      // Disable the textarea and button to prevent further input
+      notesField.disabled = true;
+      submitButton.disabled = true;
+      submitButton.value = "Submitting...";
+
+      // Simulate a process with google.script.run
+      google.script.run.withSuccessHandler(function () {
+        // Success: Display confirmation message
+        messageDiv.textContent = "Submission successful!";
+        submitButton.value = "Submitted!";
+        messageDiv.style.color = "green";
+      }).withFailureHandler(function () {
+        // Error: Re-enable the form and alert the user
+        notesField.disabled = false;
+        submitButton.disabled = false;
+        submitButton.value = "Submit";
+        messageDiv.textContent = "There was an error with the submission. Please contact with Tech Support!";
+        messageDiv.style.color = "red";
+      }).processApproval(stage, 'approve', notes, row);
+    }
+  </script>
+
+</body>
+
+</html>

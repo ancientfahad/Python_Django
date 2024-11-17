@@ -1,0 +1,26 @@
+Date: 9 Nov, 2024
+Instructor: 
+
+Topics:
+    - CSS Introduction
+    - How to add CSS
+    - Syntax
+    - Selector
+    - Background Properties
+    - Border Properties
+    - Border Radius
+    - Display Properties
+    - Cursor Properties
+    - Float Properties
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 
