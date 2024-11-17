@@ -118,12 +118,12 @@ class StudentManagementSystem:
             "students": {sid: s.to_dict() for sid, s in self.students.items()},
             "courses": {cid: c.to_dict() for cid, c in self.courses.items()}
         }
-        with open("studentmanagementsystem.json", 'w') as file:
+        with open("/Users/u75530/Documents/GitHub/Python_Django/Module-10/Project-1/Student-Management-System/studentmanagementsystem.json", 'w') as file:
             json.dump(data, file)
 
     def load_data(self):
         try:
-            with open("studentmanagementsystem.json", 'r') as file:
+            with open("/Users/u75530/Documents/GitHub/Python_Django/Module-10/Project-1/Student-Management-System/studentmanagementsystem.json", 'r') as file:
                 data = json.load(file)
                 for sid, s_data in data["students"].items():
                     student = Student(s_data['name'], s_data['age'], s_data['address'], sid)
@@ -141,7 +141,7 @@ class StudentManagementSystem:
 
     def show_json_data(self):
         try:
-            with open("studentmanagementsystem.json", 'r') as file:
+            with open("/Users/u75530/Documents/GitHub/Python_Django/Module-10/Project-1/Student-Management-System/studentmanagementsystem.json", 'r') as file:
                 data = json.load(file)
             print(json.dumps(data, indent=4))
         except FileNotFoundError:

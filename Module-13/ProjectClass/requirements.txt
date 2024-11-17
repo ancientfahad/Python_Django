@@ -1,0 +1,12 @@
+Portfolio Website Requirements:
+
+    1. Navbar
+        * Home
+        * Resume
+    2. Header / Hero
+    3. Services
+    4. Projects
+    5. Blogs
+    6. Contact
+    7. Footer
+
