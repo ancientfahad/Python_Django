@@ -1,14 +1,27 @@
-Date: 4 Nov, 2024
+Date: 18 Nov, 2024
 Instructor: Zayed Sir
 
 Topics:
-    - List Tags - Unordered, Ordered, Description List
-    - Link Tags
-    - Image and Multimedia Tags
-    - Form Tags
-    - Scripting Tags
-    - Interactive Element Tags
-    - Special Purpose Tags
+    - Set Up Bootstrap in a Project
+    - Bootstrap Component
+    - How to pick and use Bootstrap Component?
+    - Let's create essential web component using bootstrap css & html
+    - Alerts
+    - Buttons
+    - Cards
+    - Forms
+    - Navbar
+    - Medals
+    - Progress Bars
+    - Tooltips
+    - Badges
+    - List Groups
+    - Spinners
+    - Table
+    - Dropdown
+    - 
+    - Navbar and Tab
+
 
 Use Case:
     - 
