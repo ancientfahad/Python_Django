@@ -22,32 +22,36 @@
 
 ### Triplet Sum
 
-def tripletSum(size, array_num, sum):
-    
-    arr = []
-
-    for i in range(size):
-        arr.append(array_num.split()[i])
-    
+def find_triplet_sum(arr, N, P):
     arr.sort()
 
-    current_sum = 0
+    for i in range(N):
+        left = i + 1
+        right = N - 1
 
-    for i in range(size):
-        left = i - 1
-        right = i + 1
+        while left < right:
+            arrI = arr[i]
+            arrLeft = arr[left]
+            arrRight = arr[right]
 
-        current_sum = i + left + right
+            sum = arrI + arrLeft + arrRight
 
-        if (current_sum == sum):
-            print('Yay')    
+            if sum == P:
+                return arrI, arrLeft, arrRight
+            elif sum < P:
+                left += 1
+            else:
+                right -= 1
+    
+    return None  # If no triplet is found
 
-def main():
-    size = int(input())
-    array_num = input()
-    sum = int(input())
+N = int(input())
+arr = list(map(int, input().split()))
+P = int(input())
 
-    tripletSum(size, array_num, sum)
+result = find_triplet_sum(arr, N, P)
 
-if __name__ == "__main__":
-    main()
+if result:
+    print(" ".join(map(str, result)))
+else:
+    print("No triplet found")
