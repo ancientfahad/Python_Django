@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Peas Basket</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header d-flex justify-content-between align-items-center px-4">
+    <div class="logo">World Peas</div>
+    <nav>
+      <a href="#" class="text-white mx-2">Home</a>
+      <a href="#" class="text-white mx-2">Shop</a>
+      <a href="#" class="text-white mx-2">Contact</a>
+    </nav>
+    <button class="btn btn-light">Basket</button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-4">
+    <div class="row g-4">
+      <!-- Basket Items -->
+      <div class="col-md-8">
+        <div class="item-box">
+          <img src="./assets/Screenshot 2024-12-06 at 11.35.16 PM.png" alt="Heirloom Tomato">
+          <div class="item-details">
+            <h5>Heirloom Tomato</h5>
+            <small>$5.99 / kg</small>
+          </div>
+          <div class="item-price">$5.99</div>
+        </div>
+        <div class="item-box">
+          <img src="./assets/Screenshot 2024-12-06 at 11.35.47 PM.png" alt="Organic Ginger">
+          <div class="item-details">
+            <h5>Organic Ginger</h5>
+            <small>$12.99 / kg</small>
+          </div>
+          <div class="item-price">$6.50</div>
+        </div>
+        <div class="item-box">
+          <img src="./assets/Screenshot 2024-12-06 at 11.36.01 PM.png" alt="Sweet Onion">
+          <div class="item-details">
+            <h5>Sweet Onion</h5>
+            <small>$2.99 / kg</small>
+          </div>
+          <div class="item-price">$14.95</div>
+        </div>
+      </div>
+      <!-- Order Summary -->
+      <div class="col-md-4">
+        <div class="order-summary">
+          <h2>Order Summary</h2>
+          <div class="summary-item">
+            <span>Subtotal</span>
+            <span>$27.44</span>
+          </div>
+          <div class="summary-item">
+            <span>Shipping</span>
+            <span>$3.99</span>
+          </div>
+          <div class="summary-item">
+            <span>Tax</span>
+            <span>$2.00</span>
+          </div>
+          <div class="summary-item total">
+            <span>Total</span>
+            <span>$33.43</span>
+          </div>
+          <a href="#" class="payment-btn d-block text-center mt-4">Continue to payment</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

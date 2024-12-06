@@ -1,0 +1,220 @@
+
+/* General Styles */
+/* Enables smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+/* Base styling for the navbar, including its position and default appearance */
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensures it stays on top of all content */
+    background-color: transparent !important; /* Transparent background initially */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Styling for the navbar when scrolled */
+.navbar.scrolled {
+    background-color: #09064ae1 !important; /* Purple background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Navbar branding (logo) */
+.navbar .navbar-brand {
+    color: white !important; /* White text color for the logo */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navbar links default styling */
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.7); /* Semi-transparent white text */
+    position: relative;
+    padding: 10px 15px; /* Spacing around each link */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Navbar links styling for active or hover states */
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: white !important; /* Solid white color */
+}
+
+/* Green underline effect for active or hovered links */
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green; /* Green underline */
+    transition: width 0.3s ease-in-out; /* Smooth animation */
+}
+
+/* Full-width green underline on hover or active */
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+    width: 50%;
+}
+
+/* Navbar Toggler */
+/* Removes borders and outlines from the navbar toggler */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Styling for the navbar toggler icon */
+.navbar-toggler-icon {
+    background-color: white; /* White color for the icon */
+}
+
+/* Removes focus outline and box-shadow when toggler is clicked */
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Mobile Navbar */
+/* Adjustments for the navbar on smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center; /* Center-aligns links */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; /* Adds spacing between links */
+    }
+
+    /* Navbar background when expanded on small screens */
+    .navbar-collapse.show {
+        background-color: white; /* White background for expanded menu */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for clarity */
+    }
+
+    .navbar-collapse.show .nav-link {
+        color: black !important; /* Black text color */
+    }
+
+    .navbar-collapse.show .nav-link:hover {
+        color: green !important; /* Green on hover */
+    }
+}
+
+/* Hero Section */
+/* Base styling for the hero section */
+#hero {
+    height: 100vh; /* Full height of the viewport */
+    background: url('../assets/img/hero-bg-2.jpg') no-repeat center center/cover; /* Background image */
+    position: relative; /* Enables overlay and text positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7); /* Semi-transparent white text */
+}
+
+/* Purple overlay for the hero section */
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #09064ae1; /* Purple overlay */
+    z-index: 1; /* Places the overlay below text */
+}
+
+/* Ensures hero content appears above the overlay */
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Styling for the main heading in the hero section */
+#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+/* Green underline for emphasized text in the heading */
+#hero h1 span {
+    color: white;
+    border-bottom: 3px solid #1acc8d; /* Green underline */
+}
+
+/* Styling for the paragraph in the hero section */
+#hero p {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+/* Base styling for buttons in the hero section */
+#btn-get-started,
+#btn-watch-video {
+    border-radius: 50px; /* Rounded corners */
+    color: white;
+    transition: background 0.3s ease-in-out; /* Smooth background transition */
+}
+
+/* Hover state for "Get Started" button */
+#btn-get-started:hover {
+    background: green; /* Green background on hover */
+}
+
+/* Base styling for the "Watch Video" button */
+#btn-watch-video {
+    border: none; /* Removes border */
+}
+
+/* Hover state for "Watch Video" button */
+#btn-watch-video:hover {
+    color: green; /* Changes text color to green */
+}
+
+/* Hero Image */
+/* Styling for the hero section image */
+.hero-img {
+    max-width: 90%;
+    display: block;
+    animation: up-down 3s ease-in-out infinite alternate-reverse both; /* Up-down animation */
+}
+
+/* Keyframe animation for the hero image */
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Hero Section */
+/* Adjustments for the hero section on smaller screens */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.25rem; /* Smaller font size */
+    }
+
+    #hero p {
+        font-size: 1rem; /* Smaller paragraph size */
+    }
+
+    #hero .row {
+        flex-direction: column-reverse; /* Stacks text and image vertically */
+    }
+
+    #hero .hero-img {
+        max-width: 80%; /* Smaller image size */
+        margin-top: 20px; /* Adds spacing */
+    }
+}
