@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Responsive</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Responsive Bootstrap</h1>
+            </div>
+
+            <div class="col-md-auto">
+                <h1 class="text-center">Responsive Bootstrap</h1>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="table-responsive">
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-primary">
+                <h1>I am Column 1 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-3 bg-success">
+                <h1>I am Column 2 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-3 bg-warning">
+                <h1>I am Column 3 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-3 bg-danger">
+                <h1>I am Column 4 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container-fluidx">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-primary">
+                <h1>I am Column 1 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-success">
+                <h1>I am Column 2 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-warning">
+                <h1>I am Column 3 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-danger">
+                <h1>I am Column 4 for testing!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, qui!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5 table-responsive">
+        <h2>Bootstrap Table with Filter</h2>
+        <input type="text" id="tableFilter" class="form-control mb-3" placeholder="Search for names..">
+    
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>Mike Johnson</td>
+                    <td>35</td>
+                    <td>Chicago</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>28</td>
+                    <td>Miami</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#tableFilter').on('keyup', function() {
+                var value = $(this).val().toLowerCase();
+                $('#tableBody tr').filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+  </body>
+</html>

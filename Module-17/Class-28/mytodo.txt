@@ -1,0 +1,30 @@
+Date: 19 Dec, 2024
+Instructor: Zayed Sir
+
+Topics:
+    - JavaScript Events
+    - JS DOM & DOM Elements
+    - JS DOM Element Finding
+        - getElementsById
+        - getElementsByClassName
+        - getElementsByTagName
+        - getElementsByName
+    - Exploring more Document Object Features
+    - Modify HTML
+    - Modify CSS
+    - Modify Class
+    - Handling Form with DOM
+    - Create and Append Elements
+    - Query Selector
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 
