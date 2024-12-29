@@ -1,0 +1,29 @@
+M = Model = DB
+V = View = Output
+C = Controller = Business Logic / Decision
+MVC = Model-View-Controller
+
+Django
+M = Model
+V = View = Controller
+T = Template = Output
+MVT = Model-View-Template
+
+cd to project directory
+pipenv shell
+pipenv install django
+django-admin startproject projectname .
+
+Run server: python manage.py runserver
+Close server: Ctrl + C 
+
+python manage.py startapp website
+    - include the app (website) inside the settings.py
+    - create urls.py inside website directory (app directory)
+    - add all functionalities in the views.py file inside app directory
+
+link website/urls.py with the main projects urls.py
+
+Create admin user: 
+    python manage.py migrate
+    python manage.py createsuperuser

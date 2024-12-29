@@ -1,0 +1,28 @@
+Date: 11 Dec, 2024
+Instructor: Sobuj Sir
+
+Topics:
+    - Introduction to JavaScript
+    - Passing Arguments to Functions
+    - Returning Values from Functions
+    - Named Functions
+    - Anonymous Functions
+    - Arrow Functions
+    - Immediately Invoked Function Expression (IIFE)
+    - Generator Functions
+    - Recursive Functions
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 
+
+
+    Complain @ US Embassy

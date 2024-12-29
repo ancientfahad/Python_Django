@@ -1,0 +1,28 @@
+Date: 14 Dec, 2024
+Instructor: Sobuj Sir
+
+Topics:
+    - JavaScript Object
+    - JSON (JavaScript Object Notation)
+    - Converting between JavaScript Object and JSON
+    - Differences between JavaScript Object and JSON
+    - Array and Array Methods
+    - JavaScript String and String Operations
+    - Basic String Operations
+    - JavaScript Date and Time
+    - JavaScript Math
+    - JavaScript Number
+    - JavaScript Window
+    - JavaScript Navigator
+
+Use Case:
+    - 
+
+Explore:
+    - 
+
+Resources:
+    - 
+
+Questions:
+    - 
